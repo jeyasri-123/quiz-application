@@ -28,7 +28,7 @@ async function handleAnswer(isCorrect) {
   if (isCorrect) {
     spinner.success({ text: `Nice work ${playerName}. That's a legit answer` });
   } else {
-    spinner.error({ text: `💀💀💀 Game over, you lose ${playerName}!` });
+    spinner.error({ text: ` Game over, you lose ${playerName}!` });
     process.exit(1);
   }
 }
